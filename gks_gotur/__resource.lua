@@ -4,6 +4,8 @@ description 'GKS GOTUR'
 
 version '1.0'
 
+shared_script '@es_extended/imports.lua'
+
 files {
 
     -- TEST

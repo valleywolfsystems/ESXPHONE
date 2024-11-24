@@ -1,7 +1,7 @@
 
 
 Config = {}
-Config.OpenPhone = 'f1'   --## Phone open key ## https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+Config.OpenPhone = 'm'   --## Phone open key ## https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
 Config.Phones = {"phone"}  -- # item name
 Config.Locale = 'en'
 Config.Fahrenheit = false
@@ -25,7 +25,7 @@ Config.BankLimit = 5000 -- # Minimum money transfer for discord webhook
 -- Phone Settings - Start --
 
 Config.UseMumbleVoIP    = false -- Use Frazzle's Mumble-VoIP Resource (Recomended!) https://github.com/FrazzIe/mumble-voip
-Config.PMAVoice         = false
+Config.PMAVoice         = true
 Config.UseTokoVoIP      = false
 Config.SaltyChat        = false
 

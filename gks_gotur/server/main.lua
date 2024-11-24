@@ -1,7 +1,7 @@
-ESX = nil
+
 Gotur = {}
 
-TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+ESX = exports["es_extended"]:getSharedObject()
 
 TriggerEvent('esx_society:registerSociety', 'gotur', 'gotur', 'society_gotur', 'society_gotur', 'society_gotur', {type = 'private'})
 

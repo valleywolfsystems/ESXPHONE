@@ -1,4 +1,4 @@
-ESX = nil
+
 
 RaceData = {
     InCreator = false,
@@ -43,7 +43,7 @@ end
 
 Citizen.CreateThread(function()
 	while ESX == nil do
-		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+		ESX = exports["es_extended"]:getSharedObject()
 		Citizen.Wait(0)
 	end
 end)

@@ -16,11 +16,11 @@ local CurrentAction           = nil
 local CurrentActionMsg        = ''
 local CurrentActionData       = {}
 
-ESX                           = nil
+
 
 Citizen.CreateThread(function()
 	while ESX == nil do
-		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+		ESX = exports["es_extended"]:getSharedObject()
 		Citizen.Wait(0)
 	end
 
